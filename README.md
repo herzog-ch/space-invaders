@@ -7,7 +7,7 @@ https://herzog-ch.github.io/space-invaders/
 
 ### Sounds
 
-Sounds in [assets\sounds](assets\sounds) are downloaded from http://www.classicgaming.cc/classics/space-invaders/sounds
+Sounds in [assets\sounds](./assets/sounds) are downloaded from http://www.classicgaming.cc/classics/space-invaders/sounds
 
 ### License
 
