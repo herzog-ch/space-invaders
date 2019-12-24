@@ -193,6 +193,7 @@ class EnemyManager {
     // Remove dead enemies
     for (var i = 0; i < collisionInfo.enemyIndices.length; i++) {
       this.enemies[collisionInfo.enemyIndices[i]].live = false;
+      (new Audio('assets/invaderkilled.wav')).play()
 
       // adjust the game difficulty
       this.difficulty.adjustDifficultyToNumberOfEnemies();
