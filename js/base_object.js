@@ -13,7 +13,7 @@ class BaseObject {
   setClipRect(clipRect) {
     this.clipRect = clipRect;
   }
-  gameSize
+  
   /* Calc rectangle position in pixel in the game canvas */
   updateTargetRect() {
     this.targetRectPx.x = Utils.cvtGameScaleToPixel(this.bounds.x, this.canvasSizePx, GAME_AREA_SIZE);
