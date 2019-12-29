@@ -130,6 +130,7 @@ function calcGameLogic(ellapsedTime) {
   /* Create a new bullet that shoots from bottom to top */
   if (player.shoot()) {
     bulletManager.spawnBullet(player.getPosition().x, player.getPosition().y, -1, 500);
+    (new Audio('assets/shoot.wav')).play()
   }
 
   /* Move all enemies and spawn new random bullets */

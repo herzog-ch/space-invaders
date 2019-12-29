@@ -92,6 +92,7 @@ class BulletManager {
 
       if (Rect.rectCollision(bulletsDown[i].bounds, player.bounds)) {
         bulletsDown[i].live = false;
+        (new Audio('assets/explosion.wav')).play()
         numPlayerHits++;
       }
     }
