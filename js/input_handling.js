@@ -10,7 +10,8 @@ class InputHandler {
     
     this.KEY_LEFT = 37;
     this.KEY_RIGHT = 39;
-    this.KEY_SHOOT = 40; // Arrow down key
+    // this.KEY_SHOOT = 40; // Arrow down key
+    this.KEY_SHOOT = 32; // space bar
     this.KEY_ENTER = 13;
     this.keys = [this.KEY_LEFT, this.KEY_RIGHT, this.KEY_SHOOT, this.KEY_ENTER];
     

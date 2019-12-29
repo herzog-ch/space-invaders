@@ -20,6 +20,12 @@ h2 a {
   color: inherit;
 }
 
+body {
+  background-image: url('../assets/background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 .background-container {
   position: absolute;
   top: 0;
