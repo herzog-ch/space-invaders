@@ -5,6 +5,8 @@ This is my JS only implementation of space invaders. The game is rendered in a H
 <b>PLAY IT HERE:</b>
 https://herzog-ch.github.io/space-invaders/
 
+<img src='./preview.gif'>
+
 ### Code structure
 
 The entry point of the game can be found in js/main.js.
